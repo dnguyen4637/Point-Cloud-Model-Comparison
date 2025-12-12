@@ -1,0 +1,2 @@
+PointCNN/** filter=lfs diff=lfs merge=lfs -text
+Pointnet_Pointnet2_pytorch/** filter=lfs diff=lfs merge=lfs -text
