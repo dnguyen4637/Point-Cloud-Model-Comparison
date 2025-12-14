@@ -1,0 +1,19 @@
+name: pointnet_env
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - scipy
+  - matplotlib
+  - h5py
+  - tqdm
+  - pytorch
+  - torchvision
+  - pip
+  - pip:
+      - open3d
+      - scikit-learn
+      - plyfile

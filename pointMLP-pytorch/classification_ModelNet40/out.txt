@@ -1,0 +1,672 @@
+args: Namespace(checkpoint='checkpoints/pointMLP-20251202102847-67', msg=None, batch_size=32, model='pointMLP', epoch=300, num_points=1024, learning_rate=0.1, min_lr=0.005, weight_decay=0.0002, seed=67, workers=8)
+==> Building model..
+==> Preparing data..
+Epoch(1/300) Learning Rate 0.1:
+Training loss:3.285 acc_avg:10.137% acc:22.221% Precision:8.985 Recall:10.137 F1:8.643 time:53s
+Testing  loss:2.985 acc_avg:17.366% acc:27.31% Precision:12.724 Recall:17.366 F1:10.836 time:5s [best test acc: 27.31%]
+
+Epoch(2/300) Learning Rate 0.09999739554486184:
+Training loss:2.877 acc_avg:18.81% acc:37.052% Precision:16.905 Recall:18.81 F1:16.305 time:52s
+Testing  loss:2.679 acc_avg:26.826% acc:39.425% Precision:26.197 Recall:26.826 F1:21.237 time:5s [best test acc: 39.425%]
+
+Epoch(3/300) Learning Rate 0.09998958246505517:
+Training loss:2.577 acc_avg:27.082% acc:46.875% Precision:28.604 Recall:27.082 F1:25.565 time:52s
+Testing  loss:2.437 acc_avg:35.472% acc:45.827% Precision:41.933 Recall:35.472 F1:31.882 time:6s [best test acc: 45.827%]
+
+Epoch(4/300) Learning Rate 0.09997656161737226:
+Training loss:2.332 acc_avg:37.535% acc:56.586% Precision:41.442 Recall:37.535 F1:36.993 time:52s
+Testing  loss:2.114 acc_avg:52.195% acc:65.032% Precision:55.12 Recall:52.195 F1:48.581 time:5s [best test acc: 65.032%]
+
+Epoch(5/300) Learning Rate 0.09995833442969577:
+Training loss:2.179 acc_avg:45.968% acc:63.457% Precision:49.554 Recall:45.968 F1:46.147 time:52s
+Testing  loss:2.11 acc_avg:53.604% acc:62.318% Precision:52.844 Recall:53.604 F1:48.337 time:5s [best test acc: 65.032%]
+
+Epoch(6/300) Learning Rate 0.09993490290084225:
+Training loss:2.099 acc_avg:50.089% acc:66.673% Precision:52.673 Recall:50.089 F1:50.238 time:52s
+Testing  loss:1.893 acc_avg:59.333% acc:73.379% Precision:66.811 Recall:59.333 F1:58.915 time:5s [best test acc: 73.379%]
+
+Epoch(7/300) Learning Rate 0.09990626960034289:
+Training loss:2.026 acc_avg:54.564% acc:69.829% Precision:57.383 Recall:54.564 F1:54.854 time:52s
+Testing  loss:1.968 acc_avg:60.286% acc:70.665% Precision:65.162 Recall:60.286 F1:58.952 time:5s [best test acc: 73.379%]
+
+Epoch(8/300) Learning Rate 0.09987243766816174:
+Training loss:1.969 acc_avg:57.9% acc:72.109% Precision:61.153 Recall:57.9 F1:58.43 time:52s
+Testing  loss:1.832 acc_avg:67.343% acc:77.229% Precision:71.64 Recall:67.343 F1:65.515 time:5s [best test acc: 77.229%]
+
+Epoch(9/300) Learning Rate 0.09983341081435144:
+Training loss:1.922 acc_avg:61.769% acc:74.583% Precision:65.28 Recall:61.769 F1:62.567 time:52s
+Testing  loss:1.747 acc_avg:72.288% acc:80.916% Precision:75.875 Recall:72.288 F1:71.501 time:5s [best test acc: 80.916%]
+
+Epoch(10/300) Learning Rate 0.09978919331864629:
+Training loss:1.892 acc_avg:62.763% acc:75.519% Precision:65.989 Recall:62.763 F1:63.499 time:52s
+Testing  loss:1.863 acc_avg:67.023% acc:75.567% Precision:72.985 Recall:67.023 F1:66.098 time:5s [best test acc: 80.916%]
+
+Epoch(11/300) Learning Rate 0.09973979002999298:
+Training loss:1.862 acc_avg:66.159% acc:77.555% Precision:69.539 Recall:66.159 F1:66.969 time:52s
+Testing  loss:1.709 acc_avg:74.79% acc:83.995% Precision:79.899 Recall:74.79 F1:75.683 time:6s [best test acc: 83.995%]
+
+Epoch(12/300) Learning Rate 0.09968520636601882:
+Training loss:1.838 acc_avg:67.53% acc:78.471% Precision:70.147 Recall:67.53 F1:68.192 time:52s
+Testing  loss:1.694 acc_avg:76.754% acc:82.901% Precision:78.622 Recall:76.754 F1:75.903 time:5s [best test acc: 83.995%]
+
+Epoch(13/300) Learning Rate 0.0996254483124377:
+Training loss:1.819 acc_avg:68.018% acc:79.204% Precision:70.963 Recall:68.018 F1:68.849 time:52s
+Testing  loss:1.659 acc_avg:76.149% acc:84.846% Precision:79.457 Recall:76.149 F1:76.468 time:5s [best test acc: 84.846%]
+
+Epoch(14/300) Learning Rate 0.09956052242239358:
+Training loss:1.793 acc_avg:70.565% acc:80.711% Precision:73.061 Recall:70.565 F1:71.294 time:52s
+Testing  loss:1.708 acc_avg:74.158% acc:82.01% Precision:78.384 Recall:74.158 F1:73.016 time:5s [best test acc: 84.846%]
+
+Epoch(15/300) Learning Rate 0.09949043581574195:
+Training loss:1.773 acc_avg:70.959% acc:81.026% Precision:73.901 Recall:70.959 F1:71.908 time:52s
+Testing  loss:1.65 acc_avg:77.959% acc:85.049% Precision:84.015 Recall:77.959 F1:79.08 time:5s [best test acc: 85.049%]
+
+Epoch(16/300) Learning Rate 0.09941519617826905:
+Training loss:1.763 acc_avg:71.241% acc:81.199% Precision:73.786 Recall:71.241 F1:71.965 time:52s
+Testing  loss:1.671 acc_avg:78.567% acc:83.874% Precision:79.117 Recall:78.567 F1:77.393 time:5s [best test acc: 85.049%]
+
+Epoch(17/300) Learning Rate 0.09933481176084899:
+Training loss:1.749 acc_avg:72.817% acc:82.482% Precision:75.666 Recall:72.817 F1:73.718 time:52s
+Testing  loss:1.684 acc_avg:77.469% acc:82.82% Precision:80.692 Recall:77.469 F1:76.307 time:5s [best test acc: 85.049%]
+
+Epoch(18/300) Learning Rate 0.09924929137853898:
+Training loss:1.746 acc_avg:72.699% acc:81.8% Precision:74.835 Recall:72.699 F1:73.409 time:52s
+Testing  loss:1.717 acc_avg:75.232% acc:81.28% Precision:75.575 Recall:75.232 F1:72.428 time:5s [best test acc: 85.049%]
+
+Epoch(19/300) Learning Rate 0.09915864440961272:
+Training loss:1.735 acc_avg:73.971% acc:83.103% Precision:76.204 Recall:73.971 F1:74.654 time:52s
+Testing  loss:1.614 acc_avg:79.94% acc:86.386% Precision:81.741 Recall:79.94 F1:79.193 time:5s [best test acc: 86.386%]
+
+Epoch(20/300) Learning Rate 0.0990628807945318:
+Training loss:1.716 acc_avg:75.499% acc:83.673% Precision:77.523 Recall:75.499 F1:76.155 time:52s
+Testing  loss:1.605 acc_avg:79.653% acc:86.831% Precision:83.517 Recall:79.653 F1:80.042 time:5s [best test acc: 86.831%]
+
+Epoch(21/300) Learning Rate 0.09896201103485577:
+Training loss:1.705 acc_avg:76.06% acc:84.456% Precision:78.009 Recall:76.06 F1:76.737 time:52s
+Testing  loss:1.576 acc_avg:82.913% acc:88.25% Precision:83.257 Recall:82.913 F1:82.488 time:5s [best test acc: 88.25%]
+
+Epoch(22/300) Learning Rate 0.0988560461920905:
+Training loss:1.698 acc_avg:76.028% acc:84.477% Precision:78.042 Recall:76.028 F1:76.621 time:52s
+Testing  loss:1.574 acc_avg:81.721% acc:87.844% Precision:84.34 Recall:81.721 F1:81.661 time:6s [best test acc: 88.25%]
+
+Epoch(23/300) Learning Rate 0.09874499788647512:
+Training loss:1.693 acc_avg:76.515% acc:84.701% Precision:78.753 Recall:76.515 F1:77.131 time:52s
+Testing  loss:1.59 acc_avg:80.624% acc:86.669% Precision:84.183 Recall:80.624 F1:80.911 time:5s [best test acc: 88.25%]
+
+Epoch(24/300) Learning Rate 0.09862887829570773:
+Training loss:1.69 acc_avg:76.904% acc:84.721% Precision:78.689 Recall:76.904 F1:77.559 time:52s
+Testing  loss:1.586 acc_avg:81.451% acc:87.439% Precision:84.23 Recall:81.451 F1:81.898 time:5s [best test acc: 88.25%]
+
+Epoch(25/300) Learning Rate 0.09850770015360999:
+Training loss:1.669 acc_avg:77.919% acc:85.668% Precision:79.864 Recall:77.919 F1:78.605 time:52s
+Testing  loss:1.604 acc_avg:78.938% acc:85.616% Precision:83.556 Recall:78.938 F1:78.332 time:5s [best test acc: 88.25%]
+
+Epoch(26/300) Learning Rate 0.09838147674873075:
+Training loss:1.67 acc_avg:78.114% acc:85.8% Precision:79.76 Recall:78.114 F1:78.642 time:52s
+Testing  loss:1.564 acc_avg:82.263% acc:88.695% Precision:83.687 Recall:82.263 F1:82.068 time:5s [best test acc: 88.695%]
+
+Epoch(27/300) Learning Rate 0.09825022192288878:
+Training loss:1.66 acc_avg:79.329% acc:86.452% Precision:81.358 Recall:79.329 F1:80.035 time:52s
+Testing  loss:1.584 acc_avg:82.858% acc:87.237% Precision:84.115 Recall:82.858 F1:82.106 time:5s [best test acc: 88.695%]
+
+Epoch(28/300) Learning Rate 0.09811395006965482:
+Training loss:1.66 acc_avg:79.05% acc:86.024% Precision:80.512 Recall:79.05 F1:79.472 time:52s
+Testing  loss:1.571 acc_avg:83.744% acc:88.695% Precision:84.324 Recall:83.744 F1:82.952 time:5s [best test acc: 88.695%]
+
+Epoch(29/300) Learning Rate 0.0979726761327732:
+Training loss:1.645 acc_avg:79.779% acc:86.737% Precision:82.055 Recall:79.779 F1:80.561 time:52s
+Testing  loss:1.582 acc_avg:82.113% acc:87.804% Precision:84.126 Recall:82.113 F1:81.985 time:6s [best test acc: 88.695%]
+
+Epoch(30/300) Learning Rate 0.09782641560452317:
+Training loss:1.642 acc_avg:79.897% acc:86.859% Precision:81.346 Recall:79.897 F1:80.409 time:52s
+Testing  loss:1.586 acc_avg:81.453% acc:86.426% Precision:83.362 Recall:81.453 F1:81.04 time:5s [best test acc: 88.695%]
+
+Epoch(31/300) Learning Rate 0.09767518452401981:
+Training loss:1.639 acc_avg:80.174% acc:87.022% Precision:82.32 Recall:80.174 F1:80.872 time:52s
+Testing  loss:1.573 acc_avg:83.476% acc:87.885% Precision:86.548 Recall:83.476 F1:84.012 time:5s [best test acc: 88.695%]
+
+Epoch(32/300) Learning Rate 0.09751899947545534:
+Training loss:1.636 acc_avg:80.264% acc:87.011% Precision:81.897 Recall:80.264 F1:80.902 time:52s
+Testing  loss:1.552 acc_avg:83.078% acc:88.371% Precision:85.58 Recall:83.078 F1:83.056 time:6s [best test acc: 88.695%]
+
+Epoch(33/300) Learning Rate 0.09735787758628037:
+Training loss:1.628 acc_avg:80.761% acc:87.469% Precision:82.387 Recall:80.761 F1:81.329 time:52s
+Testing  loss:1.585 acc_avg:82.698% acc:87.318% Precision:85.038 Recall:82.698 F1:82.917 time:5s [best test acc: 88.695%]
+
+Epoch(34/300) Learning Rate 0.09719183652532572:
+Training loss:1.632 acc_avg:81.391% acc:87.632% Precision:83.173 Recall:81.391 F1:82.039 time:52s
+Testing  loss:1.54 acc_avg:82.555% acc:89.019% Precision:86.673 Recall:82.555 F1:83.38 time:6s [best test acc: 89.019%]
+
+Epoch(35/300) Learning Rate 0.09702089450086485:
+Training loss:1.618 acc_avg:81.65% acc:87.958% Precision:83.18 Recall:81.65 F1:82.175 time:52s
+Testing  loss:1.546 acc_avg:82.556% acc:88.29% Precision:85.566 Recall:82.556 F1:82.967 time:5s [best test acc: 89.019%]
+
+Epoch(36/300) Learning Rate 0.09684507025861708:
+Training loss:1.621 acc_avg:81.844% acc:88.08% Precision:83.493 Recall:81.844 F1:82.287 time:52s
+Testing  loss:1.549 acc_avg:83.352% acc:89.182% Precision:86.613 Recall:83.352 F1:83.598 time:5s [best test acc: 89.182%]
+
+Epoch(37/300) Learning Rate 0.09666438307969194:
+Training loss:1.616 acc_avg:81.401% acc:87.836% Precision:83.422 Recall:81.401 F1:82.086 time:52s
+Testing  loss:1.55 acc_avg:83.53% acc:89.465% Precision:85.745 Recall:83.53 F1:83.186 time:6s [best test acc: 89.465%]
+
+Epoch(38/300) Learning Rate 0.09647885277847476:
+Training loss:1.615 acc_avg:81.261% acc:87.816% Precision:82.609 Recall:81.261 F1:81.66 time:52s
+Testing  loss:1.531 acc_avg:86.395% acc:89.141% Precision:87.711 Recall:86.395 F1:86.149 time:5s [best test acc: 89.465%]
+
+Epoch(39/300) Learning Rate 0.09628849970045378:
+Training loss:1.612 acc_avg:82.073% acc:88.07% Precision:83.493 Recall:82.073 F1:82.617 time:52s
+Testing  loss:1.532 acc_avg:82.914% acc:89.1% Precision:86.314 Recall:82.914 F1:83.533 time:6s [best test acc: 89.465%]
+
+Epoch(40/300) Learning Rate 0.09609334471998911:
+Training loss:1.604 acc_avg:82.771% acc:88.711% Precision:84.455 Recall:82.771 F1:83.311 time:52s
+Testing  loss:1.597 acc_avg:82.526% acc:86.021% Precision:83.14 Recall:82.526 F1:81.885 time:5s [best test acc: 89.465%]
+
+Epoch(41/300) Learning Rate 0.09589340923802354:
+Training loss:1.603 acc_avg:82.584% acc:88.559% Precision:84.303 Recall:82.584 F1:83.226 time:52s
+Testing  loss:1.547 acc_avg:83.722% acc:88.331% Precision:84.653 Recall:83.722 F1:83.173 time:6s [best test acc: 89.465%]
+
+Epoch(42/300) Learning Rate 0.09568871517973576:
+Training loss:1.597 acc_avg:83.368% acc:89.057% Precision:84.697 Recall:83.368 F1:83.823 time:52s
+Testing  loss:1.547 acc_avg:84.913% acc:89.141% Precision:86.618 Recall:84.913 F1:85.004 time:6s [best test acc: 89.465%]
+
+Epoch(43/300) Learning Rate 0.09547928499213593:
+Training loss:1.6 acc_avg:82.527% acc:88.487% Precision:83.948 Recall:82.527 F1:83.007 time:52s
+Testing  loss:1.584 acc_avg:83.012% acc:87.075% Precision:86.693 Recall:83.012 F1:82.876 time:6s [best test acc: 89.465%]
+
+Epoch(44/300) Learning Rate 0.0952651416416042:
+Training loss:1.595 acc_avg:82.868% acc:88.925% Precision:84.455 Recall:82.868 F1:83.391 time:53s
+Testing  loss:1.52 acc_avg:84.318% acc:89.749% Precision:85.932 Recall:84.318 F1:84.244 time:5s [best test acc: 89.749%]
+
+Epoch(45/300) Learning Rate 0.09504630861137212:
+Training loss:1.59 acc_avg:82.759% acc:88.844% Precision:84.144 Recall:82.759 F1:83.233 time:52s
+Testing  loss:1.509 acc_avg:86.592% acc:90.113% Precision:87.22 Recall:86.592 F1:86.381 time:5s [best test acc: 90.113%]
+
+Epoch(46/300) Learning Rate 0.09482280989894747:
+Training loss:1.587 acc_avg:83.227% acc:89.21% Precision:84.743 Recall:83.227 F1:83.799 time:52s
+Testing  loss:1.521 acc_avg:84.93% acc:89.344% Precision:87.125 Recall:84.93 F1:84.983 time:6s [best test acc: 90.113%]
+
+Epoch(47/300) Learning Rate 0.09459467001348269:
+Training loss:1.591 acc_avg:83.127% acc:88.945% Precision:84.628 Recall:83.127 F1:83.628 time:52s
+Testing  loss:1.516 acc_avg:84.467% acc:89.627% Precision:87.484 Recall:84.467 F1:85.246 time:5s [best test acc: 90.113%]
+
+Epoch(48/300) Learning Rate 0.09436191397308712:
+Training loss:1.58 acc_avg:84.135% acc:89.577% Precision:85.408 Recall:84.135 F1:84.552 time:52s
+Testing  loss:1.547 acc_avg:83.903% acc:88.006% Precision:85.522 Recall:83.903 F1:83.405 time:5s [best test acc: 90.113%]
+
+Epoch(49/300) Learning Rate 0.09412456730208352:
+Training loss:1.583 acc_avg:84.05% acc:89.383% Precision:85.53 Recall:84.05 F1:84.563 time:1528s
+Testing  loss:1.512 acc_avg:85.58% acc:90.113% Precision:87.5 Recall:85.58 F1:85.903 time:6s [best test acc: 90.113%]
+
+Epoch(50/300) Learning Rate 0.093882656028209:
+Training loss:1.582 acc_avg:84.313% acc:89.607% Precision:85.659 Recall:84.313 F1:84.815 time:52s
+Testing  loss:1.508 acc_avg:85.826% acc:89.789% Precision:87.257 Recall:85.826 F1:85.81 time:6s [best test acc: 90.113%]
+
+Epoch(51/300) Learning Rate 0.09363620667976083:
+Training loss:1.576 acc_avg:84.746% acc:89.739% Precision:85.823 Recall:84.746 F1:85.095 time:53s
+Testing  loss:1.505 acc_avg:86.096% acc:90.802% Precision:87.779 Recall:86.096 F1:86.495 time:6s [best test acc: 90.802%]
+
+Epoch(52/300) Learning Rate 0.09338524628268732:
+Training loss:1.577 acc_avg:84.241% acc:89.739% Precision:85.787 Recall:84.241 F1:84.792 time:52s
+Testing  loss:1.578 acc_avg:83.471% acc:87.885% Precision:85.691 Recall:83.471 F1:83.564 time:5s [best test acc: 90.802%]
+
+Epoch(53/300) Learning Rate 0.09312980235762407:
+Training loss:1.577 acc_avg:84.871% acc:90.004% Precision:86.265 Recall:84.871 F1:85.368 time:52s
+Testing  loss:1.543 acc_avg:83.861% acc:87.966% Precision:84.496 Recall:83.861 F1:82.953 time:5s [best test acc: 90.802%]
+
+Epoch(54/300) Learning Rate 0.09286990291687604:
+Training loss:1.574 acc_avg:84.323% acc:89.709% Precision:85.742 Recall:84.323 F1:84.858 time:52s
+Testing  loss:1.513 acc_avg:84.963% acc:89.668% Precision:86.847 Recall:84.963 F1:85.419 time:5s [best test acc: 90.802%]
+
+Epoch(55/300) Learning Rate 0.09260557646134572:
+Training loss:1.57 acc_avg:84.794% acc:90.096% Precision:86.456 Recall:84.794 F1:85.386 time:52s
+Testing  loss:1.517 acc_avg:86.43% acc:89.749% Precision:85.686 Recall:86.43 F1:84.93 time:5s [best test acc: 90.802%]
+
+Epoch(56/300) Learning Rate 0.09233685197740765:
+Training loss:1.573 acc_avg:84.082% acc:89.851% Precision:85.64 Recall:84.082 F1:84.668 time:52s
+Testing  loss:1.5 acc_avg:85.498% acc:90.154% Precision:87.119 Recall:85.498 F1:85.56 time:5s [best test acc: 90.802%]
+
+Epoch(57/300) Learning Rate 0.09206375893372974:
+Training loss:1.564 acc_avg:85.773% acc:90.371% Precision:86.825 Recall:85.773 F1:86.127 time:52s
+Testing  loss:1.546 acc_avg:83.841% acc:88.533% Precision:85.591 Recall:83.841 F1:83.949 time:5s [best test acc: 90.802%]
+
+Epoch(58/300) Learning Rate 0.0917863272780417:
+Training loss:1.562 acc_avg:85.281% acc:90.34% Precision:86.669 Recall:85.281 F1:85.762 time:52s
+Testing  loss:1.512 acc_avg:83.717% acc:89.546% Precision:87.409 Recall:83.717 F1:84.715 time:5s [best test acc: 90.802%]
+
+Epoch(59/300) Learning Rate 0.09150458743385097:
+Training loss:1.563 acc_avg:85.345% acc:90.421% Precision:86.457 Recall:85.345 F1:85.697 time:52s
+Testing  loss:1.496 acc_avg:86.835% acc:90.478% Precision:87.411 Recall:86.835 F1:86.546 time:6s [best test acc: 90.802%]
+
+Epoch(60/300) Learning Rate 0.09121857029710634:
+Training loss:1.56 acc_avg:85.14% acc:90.208% Precision:86.333 Recall:85.14 F1:85.576 time:52s
+Testing  loss:1.514 acc_avg:85.179% acc:89.425% Precision:88.812 Recall:85.179 F1:85.455 time:5s [best test acc: 90.802%]
+
+Epoch(61/300) Learning Rate 0.09092830723281002:
+Training loss:1.561 acc_avg:85.645% acc:90.248% Precision:87.161 Recall:85.645 F1:86.197 time:52s
+Testing  loss:1.494 acc_avg:85.176% acc:90.843% Precision:87.274 Recall:85.176 F1:85.273 time:5s [best test acc: 90.843%]
+
+Epoch(62/300) Learning Rate 0.09063383007157795:
+Training loss:1.557 acc_avg:85.355% acc:90.513% Precision:86.753 Recall:85.355 F1:85.814 time:52s
+Testing  loss:1.468 acc_avg:86.979% acc:91.248% Precision:87.062 Recall:86.979 F1:86.724 time:5s [best test acc: 91.248%]
+
+Epoch(63/300) Learning Rate 0.09033517110614933:
+Training loss:1.554 acc_avg:86.048% acc:90.656% Precision:86.968 Recall:86.048 F1:86.301 time:52s
+Testing  loss:1.484 acc_avg:85.614% acc:90.843% Precision:88.077 Recall:85.614 F1:85.986 time:5s [best test acc: 91.248%]
+
+Epoch(64/300) Learning Rate 0.09003236308784529:
+Training loss:1.548 acc_avg:85.986% acc:90.696% Precision:86.908 Recall:85.986 F1:86.268 time:52s
+Testing  loss:1.491 acc_avg:85.61% acc:90.559% Precision:88.214 Recall:85.61 F1:86.278 time:5s [best test acc: 91.248%]
+
+Epoch(65/300) Learning Rate 0.0897254392229774:
+Training loss:1.552 acc_avg:85.124% acc:90.33% Precision:86.791 Recall:85.124 F1:85.754 time:52s
+Testing  loss:1.514 acc_avg:86.191% acc:89.708% Precision:87.872 Recall:86.191 F1:86.456 time:6s [best test acc: 91.248%]
+
+Epoch(66/300) Learning Rate 0.08941443316920614:
+Training loss:1.551 acc_avg:85.93% acc:90.686% Precision:87.526 Recall:85.93 F1:86.514 time:668s
+Testing  loss:1.502 acc_avg:86.634% acc:89.263% Precision:87.296 Recall:86.634 F1:86.054 time:6s [best test acc: 91.248%]
+
+Epoch(67/300) Learning Rate 0.08909937903185:
+Training loss:1.552 acc_avg:85.809% acc:90.523% Precision:86.697 Recall:85.809 F1:86.073 time:52s
+Testing  loss:1.483 acc_avg:86.432% acc:91.248% Precision:87.975 Recall:86.432 F1:86.767 time:5s [best test acc: 91.248%]
+
+Epoch(68/300) Learning Rate 0.08878031136014553:
+Training loss:1.55 acc_avg:85.878% acc:90.676% Precision:87.202 Recall:85.878 F1:86.35 time:52s
+Testing  loss:1.498 acc_avg:86.371% acc:90.032% Precision:88.56 Recall:86.371 F1:86.748 time:5s [best test acc: 91.248%]
+
+Epoch(69/300) Learning Rate 0.08845726514345843:
+Training loss:1.545 acc_avg:86.702% acc:91.042% Precision:87.728 Recall:86.702 F1:87.03 time:52s
+Testing  loss:1.495 acc_avg:86.875% acc:91.126% Precision:88.222 Recall:86.875 F1:87.2 time:5s [best test acc: 91.248%]
+
+Epoch(70/300) Learning Rate 0.08813027580744683:
+Training loss:1.544 acc_avg:86.563% acc:90.991% Precision:87.739 Recall:86.563 F1:86.929 time:52s
+Testing  loss:1.487 acc_avg:87.037% acc:90.802% Precision:88.911 Recall:87.037 F1:87.457 time:5s [best test acc: 91.248%]
+
+Epoch(71/300) Learning Rate 0.08779937921017623:
+Training loss:1.547 acc_avg:86.905% acc:91.103% Precision:87.814 Recall:86.905 F1:87.229 time:52s
+Testing  loss:1.478 acc_avg:87.666% acc:91.653% Precision:88.676 Recall:87.666 F1:87.88 time:5s [best test acc: 91.653%]
+
+Epoch(72/300) Learning Rate 0.08746461163818738:
+Training loss:1.539 acc_avg:86.48% acc:91.276% Precision:87.933 Recall:86.48 F1:87.012 time:52s
+Testing  loss:1.502 acc_avg:85.762% acc:89.344% Precision:88.817 Recall:85.762 F1:86.418 time:5s [best test acc: 91.653%]
+
+Epoch(73/300) Learning Rate 0.08712600980251704:
+Training loss:1.536 acc_avg:86.806% acc:91.256% Precision:88.014 Recall:86.806 F1:87.254 time:52s
+Testing  loss:1.475 acc_avg:86.646% acc:90.964% Precision:88.181 Recall:86.646 F1:87.186 time:5s [best test acc: 91.653%]
+
+Epoch(74/300) Learning Rate 0.0867836108346722:
+Training loss:1.536 acc_avg:86.998% acc:91.572% Precision:88.351 Recall:86.998 F1:87.492 time:52s
+Testing  loss:1.468 acc_avg:87.728% acc:91.734% Precision:89.272 Recall:87.728 F1:88.079 time:5s [best test acc: 91.734%]
+
+Epoch(75/300) Learning Rate 0.08643745228255816:
+Training loss:1.544 acc_avg:86.665% acc:91.185% Precision:87.875 Recall:86.665 F1:87.109 time:52s
+Testing  loss:1.496 acc_avg:86.888% acc:90.802% Precision:87.103 Recall:86.888 F1:86.454 time:6s [best test acc: 91.734%]
+
+Epoch(76/300) Learning Rate 0.086087572106361:
+Training loss:1.535 acc_avg:87.308% acc:91.48% Precision:88.377 Recall:87.308 F1:87.681 time:52s
+Testing  loss:1.47 acc_avg:87.163% acc:91.329% Precision:87.679 Recall:87.163 F1:86.932 time:5s [best test acc: 91.734%]
+
+Epoch(77/300) Learning Rate 0.08573400867438487:
+Training loss:1.535 acc_avg:86.846% acc:91.266% Precision:87.836 Recall:86.846 F1:87.198 time:52s
+Testing  loss:1.484 acc_avg:87.113% acc:91.41% Precision:87.458 Recall:87.113 F1:86.722 time:5s [best test acc: 91.734%]
+
+Epoch(78/300) Learning Rate 0.08537680075884432:
+Training loss:1.53 acc_avg:86.757% acc:91.276% Precision:88.075 Recall:86.757 F1:87.266 time:52s
+Testing  loss:1.49 acc_avg:86.016% acc:91.005% Precision:88.212 Recall:86.016 F1:86.599 time:5s [best test acc: 91.734%]
+
+Epoch(79/300) Learning Rate 0.08501598753161271:
+Training loss:1.532 acc_avg:87.602% acc:91.633% Precision:88.524 Recall:87.602 F1:87.867 time:52s
+Testing  loss:1.493 acc_avg:85.835% acc:90.316% Precision:88.645 Recall:85.835 F1:86.373 time:5s [best test acc: 91.734%]
+
+Epoch(80/300) Learning Rate 0.08465160855992639:
+Training loss:1.533 acc_avg:86.903% acc:91.297% Precision:88.164 Recall:86.903 F1:87.375 time:52s
+Testing  loss:1.524 acc_avg:85.117% acc:89.425% Precision:88.651 Recall:85.117 F1:85.386 time:5s [best test acc: 91.734%]
+
+Epoch(81/300) Learning Rate 0.08428370380204576:
+Training loss:1.526 acc_avg:87.667% acc:91.714% Precision:88.925 Recall:87.667 F1:88.159 time:52s
+Testing  loss:1.482 acc_avg:87.686% acc:91.086% Precision:87.415 Recall:87.686 F1:86.972 time:6s [best test acc: 91.734%]
+
+Epoch(82/300) Learning Rate 0.08391231360287346:
+Training loss:1.526 acc_avg:87.156% acc:91.572% Precision:88.558 Recall:87.156 F1:87.718 time:52s
+Testing  loss:1.47 acc_avg:87.1% acc:91.329% Precision:87.754 Recall:87.1 F1:87.071 time:6s [best test acc: 91.734%]
+
+Epoch(83/300) Learning Rate 0.08353747868953001:
+Training loss:1.525 acc_avg:87.135% acc:91.602% Precision:87.986 Recall:87.135 F1:87.409 time:52s
+Testing  loss:1.458 acc_avg:88.187% acc:92.545% Precision:88.635 Recall:88.187 F1:88.148 time:5s [best test acc: 92.545%]
+
+Epoch(84/300) Learning Rate 0.08315924016688765:
+Training loss:1.525 acc_avg:87.651% acc:91.826% Precision:88.804 Recall:87.651 F1:88.019 time:52s
+Testing  loss:1.483 acc_avg:86.581% acc:90.519% Precision:88.413 Recall:86.581 F1:86.623 time:5s [best test acc: 92.545%]
+
+Epoch(85/300) Learning Rate 0.08277763951306276:
+Training loss:1.527 acc_avg:87.501% acc:91.673% Precision:88.601 Recall:87.501 F1:87.842 time:52s
+Testing  loss:1.489 acc_avg:87.184% acc:90.6% Precision:87.528 Recall:87.184 F1:86.909 time:5s [best test acc: 92.545%]
+
+Epoch(86/300) Learning Rate 0.08239271857486727:
+Training loss:1.52 acc_avg:88.051% acc:91.928% Precision:88.643 Recall:88.051 F1:88.204 time:52s
+Testing  loss:1.477 acc_avg:87.436% acc:91.937% Precision:89.0 Recall:87.436 F1:87.591 time:5s [best test acc: 92.545%]
+
+Epoch(87/300) Learning Rate 0.08200451956321973:
+Training loss:1.513 acc_avg:88.638% acc:92.396% Precision:89.767 Recall:88.638 F1:89.018 time:52s
+Testing  loss:1.487 acc_avg:86.384% acc:90.032% Precision:89.021 Recall:86.384 F1:87.091 time:6s [best test acc: 92.545%]
+
+Epoch(88/300) Learning Rate 0.08161308504851637:
+Training loss:1.517 acc_avg:88.19% acc:91.958% Precision:89.226 Recall:88.19 F1:88.609 time:52s
+Testing  loss:1.476 acc_avg:85.822% acc:90.113% Precision:88.982 Recall:85.822 F1:86.786 time:5s [best test acc: 92.545%]
+
+Epoch(89/300) Learning Rate 0.0812184579559628:
+Training loss:1.517 acc_avg:87.461% acc:91.511% Precision:88.513 Recall:87.461 F1:87.864 time:52s
+Testing  loss:1.481 acc_avg:86.291% acc:90.964% Precision:88.705 Recall:86.291 F1:86.681 time:5s [best test acc: 92.545%]
+
+Epoch(90/300) Learning Rate 0.08082068156086673:
+Training loss:1.515 acc_avg:88.285% acc:92.132% Precision:89.557 Recall:88.285 F1:88.738 time:52s
+Testing  loss:1.494 acc_avg:86.194% acc:90.276% Precision:87.319 Recall:86.194 F1:86.056 time:5s [best test acc: 92.545%]
+
+Epoch(91/300) Learning Rate 0.08041979948389245:
+Training loss:1.517 acc_avg:88.079% acc:92.111% Precision:89.455 Recall:88.079 F1:88.565 time:52s
+Testing  loss:1.493 acc_avg:86.99% acc:90.113% Precision:88.675 Recall:86.99 F1:87.002 time:6s [best test acc: 92.545%]
+
+Epoch(92/300) Learning Rate 0.08001585568627723:
+Training loss:1.51 acc_avg:88.835% acc:92.518% Precision:90.148 Recall:88.835 F1:89.334 time:52s
+Testing  loss:1.516 acc_avg:87.07% acc:89.911% Precision:87.326 Recall:87.07 F1:86.748 time:5s [best test acc: 92.545%]
+
+Epoch(93/300) Learning Rate 0.0796088944650105:
+Training loss:1.508 acc_avg:88.966% acc:92.63% Precision:90.19 Recall:88.966 F1:89.454 time:52s
+Testing  loss:1.481 acc_avg:87.184% acc:91.532% Precision:90.383 Recall:87.184 F1:88.126 time:5s [best test acc: 92.545%]
+
+Epoch(94/300) Learning Rate 0.0791989604479762:
+Training loss:1.512 acc_avg:88.252% acc:92.162% Precision:89.534 Recall:88.252 F1:88.752 time:52s
+Testing  loss:1.489 acc_avg:86.992% acc:90.64% Precision:88.296 Recall:86.992 F1:87.292 time:5s [best test acc: 92.545%]
+
+Epoch(95/300) Learning Rate 0.07878609858905883:
+Training loss:1.513 acc_avg:88.111% acc:92.132% Precision:89.271 Recall:88.111 F1:88.559 time:52s
+Testing  loss:1.468 acc_avg:88.222% acc:91.532% Precision:90.518 Recall:88.222 F1:88.789 time:5s [best test acc: 92.545%]
+
+Epoch(96/300) Learning Rate 0.07837035416321377:
+Training loss:1.508 acc_avg:88.14% acc:92.406% Precision:89.477 Recall:88.14 F1:88.618 time:52s
+Testing  loss:1.484 acc_avg:87.821% acc:91.532% Precision:88.193 Recall:87.821 F1:87.528 time:5s [best test acc: 92.545%]
+
+Epoch(97/300) Learning Rate 0.07795177276150232:
+Training loss:1.508 acc_avg:88.182% acc:92.172% Precision:89.429 Recall:88.182 F1:88.645 time:52s
+Testing  loss:1.494 acc_avg:85.935% acc:90.6% Precision:87.608 Recall:85.935 F1:85.9 time:5s [best test acc: 92.545%]
+
+Epoch(98/300) Learning Rate 0.07753040028609218:
+Training loss:1.514 acc_avg:88.212% acc:92.193% Precision:89.328 Recall:88.212 F1:88.578 time:52s
+Testing  loss:1.47 acc_avg:87.693% acc:92.018% Precision:88.908 Recall:87.693 F1:87.943 time:5s [best test acc: 92.545%]
+
+Epoch(99/300) Learning Rate 0.07710628294522368:
+Training loss:1.505 acc_avg:88.598% acc:92.437% Precision:89.674 Recall:88.598 F1:89.013 time:52s
+Testing  loss:1.496 acc_avg:86.358% acc:89.425% Precision:87.15 Recall:86.358 F1:85.917 time:6s [best test acc: 92.545%]
+
+Epoch(100/300) Learning Rate 0.07667946724814263:
+Training loss:1.508 acc_avg:88.321% acc:92.305% Precision:89.59 Recall:88.321 F1:88.808 time:52s
+Testing  loss:1.469 acc_avg:89.416% acc:91.126% Precision:89.632 Recall:89.416 F1:88.812 time:5s [best test acc: 92.545%]
+
+Epoch(101/300) Learning Rate 0.07625:
+Training loss:1.502 acc_avg:88.889% acc:92.549% Precision:89.856 Recall:88.889 F1:89.237 time:52s
+Testing  loss:1.476 acc_avg:85.624% acc:90.681% Precision:89.173 Recall:85.624 F1:86.551 time:5s [best test acc: 92.545%]
+
+Epoch(102/300) Learning Rate 0.07581792829671918:
+Training loss:1.496 acc_avg:89.608% acc:92.915% Precision:90.518 Recall:89.608 F1:89.971 time:52s
+Testing  loss:1.471 acc_avg:88.797% acc:91.167% Precision:88.317 Recall:88.797 F1:88.234 time:6s [best test acc: 92.545%]
+
+Epoch(103/300) Learning Rate 0.07538329951983147:
+Training loss:1.5 acc_avg:89.357% acc:92.966% Precision:90.5 Recall:89.357 F1:89.755 time:52s
+Testing  loss:1.469 acc_avg:87.416% acc:91.086% Precision:87.666 Recall:87.416 F1:86.958 time:5s [best test acc: 92.545%]
+
+Epoch(104/300) Learning Rate 0.07494616133128007:
+Training loss:1.497 acc_avg:89.504% acc:92.875% Precision:89.934 Recall:89.504 F1:89.602 time:52s
+Testing  loss:1.463 acc_avg:87.083% acc:91.329% Precision:89.144 Recall:87.083 F1:87.572 time:5s [best test acc: 92.545%]
+
+Epoch(105/300) Learning Rate 0.07450656166819344:
+Training loss:1.489 acc_avg:89.651% acc:93.241% Precision:90.555 Recall:89.651 F1:89.952 time:52s
+Testing  loss:1.475 acc_avg:86.747% acc:91.694% Precision:88.541 Recall:86.747 F1:87.177 time:5s [best test acc: 92.545%]
+
+Epoch(106/300) Learning Rate 0.07406454873762848:
+Training loss:1.489 acc_avg:89.639% acc:93.088% Precision:90.637 Recall:89.639 F1:89.977 time:52s
+Testing  loss:1.459 acc_avg:88.312% acc:92.261% Precision:89.471 Recall:88.312 F1:88.556 time:5s [best test acc: 92.545%]
+
+Epoch(107/300) Learning Rate 0.07362017101128406:
+Training loss:1.495 acc_avg:89.319% acc:92.763% Precision:90.433 Recall:89.319 F1:89.722 time:52s
+Testing  loss:1.454 acc_avg:87.342% acc:91.613% Precision:89.372 Recall:87.342 F1:87.958 time:5s [best test acc: 92.545%]
+
+Epoch(108/300) Learning Rate 0.07317347722018556:
+Training loss:1.498 acc_avg:88.848% acc:92.763% Precision:90.04 Recall:88.848 F1:89.26 time:52s
+Testing  loss:1.47 acc_avg:88.447% acc:91.045% Precision:88.237 Recall:88.447 F1:87.972 time:5s [best test acc: 92.545%]
+
+Epoch(109/300) Learning Rate 0.07272451634934095:
+Training loss:1.493 acc_avg:89.164% acc:92.732% Precision:89.925 Recall:89.164 F1:89.441 time:52s
+Testing  loss:1.452 acc_avg:87.947% acc:91.977% Precision:88.264 Recall:87.947 F1:87.875 time:5s [best test acc: 92.545%]
+
+Epoch(110/300) Learning Rate 0.07227333763236905:
+Training loss:1.496 acc_avg:89.723% acc:93.139% Precision:90.749 Recall:89.723 F1:90.07 time:52s
+Testing  loss:1.48 acc_avg:86.976% acc:90.681% Precision:88.3 Recall:86.976 F1:87.25 time:5s [best test acc: 92.545%]
+
+Epoch(111/300) Learning Rate 0.0718199905461005:
+Training loss:1.483 acc_avg:90.024% acc:93.2% Precision:90.558 Recall:90.024 F1:90.134 time:52s
+Testing  loss:1.494 acc_avg:86.227% acc:90.478% Precision:87.94 Recall:86.227 F1:86.252 time:5s [best test acc: 92.545%]
+
+Epoch(112/300) Learning Rate 0.07136452480515207:
+Training loss:1.492 acc_avg:89.39% acc:92.864% Precision:90.414 Recall:89.39 F1:89.768 time:52s
+Testing  loss:1.481 acc_avg:87.813% acc:89.911% Precision:89.537 Recall:87.813 F1:87.856 time:5s [best test acc: 92.545%]
+
+Epoch(113/300) Learning Rate 0.07090699035647488:
+Training loss:1.485 acc_avg:90.135% acc:93.343% Precision:91.239 Recall:90.135 F1:90.579 time:52s
+Testing  loss:1.486 acc_avg:87.071% acc:90.357% Precision:87.809 Recall:87.071 F1:86.871 time:5s [best test acc: 92.545%]
+
+Epoch(114/300) Learning Rate 0.07044743737387718:
+Training loss:1.484 acc_avg:90.18% acc:93.231% Precision:91.05 Recall:90.18 F1:90.508 time:52s
+Testing  loss:1.467 acc_avg:88.492% acc:91.288% Precision:88.457 Recall:88.492 F1:88.033 time:5s [best test acc: 92.545%]
+
+Epoch(115/300) Learning Rate 0.0699859162525222:
+Training loss:1.481 acc_avg:90.192% acc:93.465% Precision:91.057 Recall:90.192 F1:90.496 time:52s
+Testing  loss:1.47 acc_avg:87.983% acc:90.357% Precision:89.291 Recall:87.983 F1:87.826 time:5s [best test acc: 92.545%]
+
+Epoch(116/300) Learning Rate 0.06952247760340174:
+Training loss:1.489 acc_avg:89.509% acc:93.139% Precision:90.701 Recall:89.509 F1:90.008 time:52s
+Testing  loss:1.448 acc_avg:88.204% acc:91.856% Precision:88.219 Recall:88.204 F1:87.946 time:5s [best test acc: 92.545%]
+
+Epoch(117/300) Learning Rate 0.06905717224778622:
+Training loss:1.48 acc_avg:90.585% acc:93.536% Precision:91.378 Recall:90.585 F1:90.892 time:52s
+Testing  loss:1.443 acc_avg:88.17% acc:92.22% Precision:89.061 Recall:88.17 F1:88.142 time:5s [best test acc: 92.545%]
+
+Epoch(118/300) Learning Rate 0.06859005121165135:
+Training loss:1.483 acc_avg:90.213% acc:93.516% Precision:91.578 Recall:90.213 F1:90.746 time:52s
+Testing  loss:1.446 acc_avg:88.524% acc:92.545% Precision:90.029 Recall:88.524 F1:88.967 time:5s [best test acc: 92.545%]
+
+Epoch(119/300) Learning Rate 0.0681211657200827:
+Training loss:1.484 acc_avg:90.273% acc:93.455% Precision:91.019 Recall:90.273 F1:90.523 time:52s
+Testing  loss:1.455 acc_avg:87.505% acc:91.288% Precision:89.101 Recall:87.505 F1:88.035 time:5s [best test acc: 92.545%]
+
+Epoch(120/300) Learning Rate 0.06765056719165832:
+Training loss:1.481 acc_avg:90.045% acc:93.363% Precision:90.949 Recall:90.045 F1:90.387 time:52s
+Testing  loss:1.451 acc_avg:89.341% acc:92.707% Precision:88.977 Recall:89.341 F1:88.81 time:6s [best test acc: 92.707%]
+
+Epoch(121/300) Learning Rate 0.06717830723281:
+Training loss:1.477 acc_avg:90.297% acc:93.516% Precision:91.178 Recall:90.297 F1:90.637 time:52s
+Testing  loss:1.445 acc_avg:88.742% acc:92.464% Precision:89.599 Recall:88.742 F1:88.83 time:6s [best test acc: 92.707%]
+
+Epoch(122/300) Learning Rate 0.06670443763216412:
+Training loss:1.473 acc_avg:90.453% acc:93.526% Precision:91.249 Recall:90.453 F1:90.677 time:52s
+Testing  loss:1.443 acc_avg:87.216% acc:91.856% Precision:88.209 Recall:87.216 F1:87.566 time:5s [best test acc: 92.707%]
+
+Epoch(123/300) Learning Rate 0.06622901035486241:
+Training loss:1.471 acc_avg:90.469% acc:93.699% Precision:91.539 Recall:90.469 F1:90.878 time:52s
+Testing  loss:1.456 acc_avg:88.749% acc:91.856% Precision:89.825 Recall:88.749 F1:88.876 time:5s [best test acc: 92.707%]
+
+Epoch(124/300) Learning Rate 0.06575207753686341:
+Training loss:1.471 acc_avg:90.592% acc:93.607% Precision:91.555 Recall:90.592 F1:90.957 time:52s
+Testing  loss:1.458 acc_avg:88.113% acc:91.977% Precision:88.99 Recall:88.113 F1:87.988 time:5s [best test acc: 92.707%]
+
+Epoch(125/300) Learning Rate 0.06527369147922513:
+Training loss:1.466 acc_avg:91.172% acc:94.137% Precision:92.22 Recall:91.172 F1:91.575 time:52s
+Testing  loss:1.468 acc_avg:86.885% acc:91.207% Precision:88.083 Recall:86.885 F1:87.028 time:5s [best test acc: 92.707%]
+
+Epoch(126/300) Learning Rate 0.06479390464236975:
+Training loss:1.465 acc_avg:91.031% acc:93.984% Precision:92.102 Recall:91.031 F1:91.416 time:52s
+Testing  loss:1.475 acc_avg:88.001% acc:90.802% Precision:89.18 Recall:88.001 F1:88.082 time:5s [best test acc: 92.707%]
+
+Epoch(127/300) Learning Rate 0.0643127696403306:
+Training loss:1.471 acc_avg:90.665% acc:93.618% Precision:91.179 Recall:90.665 F1:90.808 time:52s
+Testing  loss:1.45 acc_avg:89.549% acc:91.937% Precision:89.732 Recall:89.549 F1:89.329 time:6s [best test acc: 92.707%]
+
+Epoch(128/300) Learning Rate 0.0638303392349826:
+Training loss:1.469 acc_avg:90.847% acc:93.791% Precision:91.634 Recall:90.847 F1:91.114 time:52s
+Testing  loss:1.452 acc_avg:87.416% acc:91.41% Precision:88.072 Recall:87.416 F1:87.206 time:5s [best test acc: 92.707%]
+
+Epoch(129/300) Learning Rate 0.06334666633025617:
+Training loss:1.46 acc_avg:91.525% acc:94.401% Precision:92.556 Recall:91.525 F1:91.899 time:52s
+Testing  loss:1.466 acc_avg:88.326% acc:90.924% Precision:87.812 Recall:88.326 F1:87.672 time:5s [best test acc: 92.707%]
+
+Epoch(130/300) Learning Rate 0.0628618039663358:
+Training loss:1.464 acc_avg:90.959% acc:94.066% Precision:91.722 Recall:90.959 F1:91.238 time:52s
+Testing  loss:1.467 acc_avg:88.355% acc:91.41% Precision:88.981 Recall:88.355 F1:88.132 time:5s [best test acc: 92.707%]
+
+Epoch(131/300) Learning Rate 0.06237580531384358:
+Training loss:1.466 acc_avg:90.706% acc:93.842% Precision:91.728 Recall:90.706 F1:91.102 time:52s
+Testing  loss:1.455 acc_avg:89.491% acc:92.464% Precision:89.11 Recall:89.491 F1:89.084 time:5s [best test acc: 92.707%]
+
+Epoch(132/300) Learning Rate 0.061888723668008495:
+Training loss:1.46 acc_avg:91.386% acc:94.066% Precision:91.954 Recall:91.386 F1:91.575 time:52s
+Testing  loss:1.455 acc_avg:88.749% acc:92.099% Precision:88.367 Recall:88.749 F1:88.296 time:5s [best test acc: 92.707%]
+
+Epoch(133/300) Learning Rate 0.061400612442821946:
+Training loss:1.457 acc_avg:91.77% acc:94.381% Precision:92.654 Recall:91.77 F1:92.112 time:52s
+Testing  loss:1.488 acc_avg:88.225% acc:91.045% Precision:87.797 Recall:88.225 F1:87.488 time:5s [best test acc: 92.707%]
+
+Epoch(134/300) Learning Rate 0.06091152516518023:
+Training loss:1.465 acc_avg:90.855% acc:93.862% Precision:92.036 Recall:90.855 F1:91.321 time:52s
+Testing  loss:1.449 acc_avg:89.303% acc:92.099% Precision:89.775 Recall:89.303 F1:89.346 time:5s [best test acc: 92.707%]
+
+Epoch(135/300) Learning Rate 0.06042151546901488:
+Training loss:1.456 acc_avg:91.329% acc:94.249% Precision:92.333 Recall:91.329 F1:91.688 time:52s
+Testing  loss:1.446 acc_avg:87.55% acc:91.815% Precision:88.822 Recall:87.55 F1:87.732 time:5s [best test acc: 92.707%]
+
+Epoch(136/300) Learning Rate 0.05993063708941099:
+Training loss:1.458 acc_avg:91.447% acc:94.422% Precision:92.555 Recall:91.447 F1:91.879 time:52s
+Testing  loss:1.437 acc_avg:89.041% acc:92.423% Precision:88.437 Recall:89.041 F1:88.61 time:6s [best test acc: 92.707%]
+
+Epoch(137/300) Learning Rate 0.059438943856714575:
+Training loss:1.463 acc_avg:90.993% acc:93.862% Precision:91.748 Recall:90.993 F1:91.246 time:52s
+Testing  loss:1.455 acc_avg:88.342% acc:92.018% Precision:88.721 Recall:88.342 F1:88.05 time:5s [best test acc: 92.707%]
+
+Epoch(138/300) Learning Rate 0.058946489690629475:
+Training loss:1.452 acc_avg:92.147% acc:94.727% Precision:93.023 Recall:92.147 F1:92.507 time:52s
+Testing  loss:1.447 acc_avg:87.996% acc:92.22% Precision:89.785 Recall:87.996 F1:88.493 time:6s [best test acc: 92.707%]
+
+Epoch(139/300) Learning Rate 0.058453328594304466:
+Training loss:1.455 acc_avg:91.973% acc:94.473% Precision:92.676 Recall:91.973 F1:92.23 time:52s
+Testing  loss:1.458 acc_avg:88.128% acc:91.41% Precision:88.059 Recall:88.128 F1:87.755 time:6s [best test acc: 92.707%]
+
+Epoch(140/300) Learning Rate 0.05795951464841118:
+Training loss:1.455 acc_avg:91.714% acc:94.422% Precision:92.812 Recall:91.714 F1:92.161 time:52s
+Testing  loss:1.437 acc_avg:88.803% acc:92.058% Precision:89.907 Recall:88.803 F1:89.198 time:5s [best test acc: 92.707%]
+
+Epoch(141/300) Learning Rate 0.05746510200521356:
+Training loss:1.452 acc_avg:91.646% acc:94.513% Precision:92.558 Recall:91.646 F1:91.992 time:52s
+Testing  loss:1.446 acc_avg:88.805% acc:91.896% Precision:90.028 Recall:88.805 F1:88.933 time:5s [best test acc: 92.707%]
+
+Epoch(142/300) Learning Rate 0.05697014488262945:
+Training loss:1.45 acc_avg:92.121% acc:94.686% Precision:92.79 Recall:92.121 F1:92.382 time:52s
+Testing  loss:1.445 acc_avg:87.801% acc:91.896% Precision:89.488 Recall:87.801 F1:88.301 time:6s [best test acc: 92.707%]
+
+Epoch(143/300) Learning Rate 0.056474697558285:
+Training loss:1.444 acc_avg:92.194% acc:94.788% Precision:93.061 Recall:92.194 F1:92.514 time:52s
+Testing  loss:1.459 acc_avg:88.48% acc:91.653% Precision:87.588 Recall:88.48 F1:87.65 time:6s [best test acc: 92.707%]
+
+Epoch(144/300) Learning Rate 0.055978814363562515:
+Training loss:1.453 acc_avg:91.73% acc:94.391% Precision:92.383 Recall:91.73 F1:91.937 time:52s
+Testing  loss:1.443 acc_avg:89.03% acc:91.896% Precision:89.531 Recall:89.03 F1:89.143 time:6s [best test acc: 92.707%]
+
+Epoch(145/300) Learning Rate 0.0554825496776424:
+Training loss:1.444 acc_avg:91.8% acc:94.646% Precision:92.747 Recall:91.8 F1:92.159 time:52s
+Testing  loss:1.445 acc_avg:88.908% acc:91.653% Precision:89.524 Recall:88.908 F1:88.918 time:5s [best test acc: 92.707%]
+
+Epoch(146/300) Learning Rate 0.054985957921539846:
+Training loss:1.445 acc_avg:92.315% acc:94.737% Precision:93.112 Recall:92.315 F1:92.649 time:52s
+Testing  loss:1.442 acc_avg:89.484% acc:91.775% Precision:89.147 Recall:89.484 F1:89.084 time:5s [best test acc: 92.707%]
+
+Epoch(147/300) Learning Rate 0.054489093552137:
+Training loss:1.44 acc_avg:92.786% acc:95.145% Precision:93.562 Recall:92.786 F1:93.073 time:52s
+Testing  loss:1.46 acc_avg:88.371% acc:90.6% Precision:89.49 Recall:88.371 F1:88.398 time:6s [best test acc: 92.707%]
+
+Epoch(148/300) Learning Rate 0.05399201105621109:
+Training loss:1.442 acc_avg:92.278% acc:94.86% Precision:93.287 Recall:92.278 F1:92.714 time:52s
+Testing  loss:1.468 acc_avg:87.149% acc:90.316% Precision:88.586 Recall:87.149 F1:87.354 time:5s [best test acc: 92.707%]
+
+Epoch(149/300) Learning Rate 0.05349476494445946:
+Training loss:1.44 acc_avg:92.128% acc:94.809% Precision:93.012 Recall:92.128 F1:92.489 time:169s
+Testing  loss:1.444 acc_avg:87.858% acc:91.896% Precision:88.83 Recall:87.858 F1:87.958 time:5s [best test acc: 92.707%]
+
+Epoch(150/300) Learning Rate 0.05299740974552168:
+Training loss:1.433 acc_avg:92.498% acc:95.185% Precision:93.476 Recall:92.498 F1:92.906 time:52s
+Testing  loss:1.446 acc_avg:88.117% acc:91.694% Precision:89.553 Recall:88.117 F1:88.591 time:5s [best test acc: 92.707%]
+
+Epoch(151/300) Learning Rate 0.052500000000000005:
+Training loss:1.439 acc_avg:92.743% acc:95.134% Precision:93.652 Recall:92.743 F1:93.126 time:52s
+Testing  loss:1.46 acc_avg:88.55% acc:91.37% Precision:89.894 Recall:88.55 F1:88.903 time:5s [best test acc: 92.707%]
+
+Epoch(152/300) Learning Rate 0.052002590254478336:
+Training loss:1.437 acc_avg:92.747% acc:95.022% Precision:93.463 Recall:92.747 F1:93.052 time:52s
+Testing  loss:1.45 acc_avg:88.666% acc:91.41% Precision:87.399 Recall:88.666 F1:87.712 time:5s [best test acc: 92.707%]
+
+Epoch(153/300) Learning Rate 0.05150523505554057:
+Training loss:1.432 acc_avg:92.886% acc:95.267% Precision:93.671 Recall:92.886 F1:93.203 time:52s
+Testing  loss:1.441 acc_avg:89.545% acc:92.139% Precision:88.977 Recall:89.545 F1:88.923 time:5s [best test acc: 92.707%]
+
+Epoch(154/300) Learning Rate 0.05100798894378892:
+Training loss:1.436 acc_avg:93.018% acc:95.257% Precision:93.742 Recall:93.018 F1:93.283 time:52s
+Testing  loss:1.437 acc_avg:88.162% acc:92.18% Precision:89.554 Recall:88.162 F1:88.579 time:5s [best test acc: 92.707%]
+
+Epoch(155/300) Learning Rate 0.050510906447863026:
+Training loss:1.434 acc_avg:92.722% acc:95.155% Precision:93.619 Recall:92.722 F1:93.08 time:52s
+Testing  loss:1.438 acc_avg:88.945% acc:92.139% Precision:88.809 Recall:88.945 F1:88.528 time:5s [best test acc: 92.707%]
+
+Epoch(156/300) Learning Rate 0.05001404207846018:
+Training loss:1.432 acc_avg:93.304% acc:95.348% Precision:93.87 Recall:93.304 F1:93.535 time:52s
+Testing  loss:1.446 acc_avg:88.93% acc:91.734% Precision:89.403 Recall:88.93 F1:88.852 time:6s [best test acc: 92.707%]
+
+Epoch(157/300) Learning Rate 0.04951745032235764:
+Training loss:1.432 acc_avg:92.707% acc:95.145% Precision:93.566 Recall:92.707 F1:93.037 time:52s
+Testing  loss:1.43 acc_avg:89.216% acc:92.301% Precision:88.615 Recall:89.216 F1:88.786 time:5s [best test acc: 92.707%]
+
+Epoch(158/300) Learning Rate 0.049021185636437516:
+Training loss:1.428 acc_avg:93.549% acc:95.46% Precision:94.223 Recall:93.549 F1:93.81 time:52s
+Testing  loss:1.44 acc_avg:89.812% acc:92.504% Precision:90.028 Recall:89.812 F1:89.644 time:5s [best test acc: 92.707%]
+
+Epoch(159/300) Learning Rate 0.04852530244171502:
+Training loss:1.425 acc_avg:93.492% acc:95.511% Precision:94.19 Recall:93.492 F1:93.764 time:52s
+Testing  loss:1.421 acc_avg:89.52% acc:92.585% Precision:90.008 Recall:89.52 F1:89.472 time:5s [best test acc: 92.707%]
+
+Epoch(160/300) Learning Rate 0.048029855117370575:
+Training loss:1.42 acc_avg:93.364% acc:95.694% Precision:94.358 Recall:93.364 F1:93.738 time:52s
+Testing  loss:1.466 acc_avg:88.25% acc:90.721% Precision:88.908 Recall:88.25 F1:88.231 time:5s [best test acc: 92.707%]
+
+Epoch(161/300) Learning Rate 0.047534897994786475:
+Training loss:1.426 acc_avg:93.445% acc:95.399% Precision:94.06 Recall:93.445 F1:93.665 time:52s
+Testing  loss:1.458 acc_avg:88.802% acc:91.288% Precision:89.447 Recall:88.802 F1:88.7 time:6s [best test acc: 92.707%]
+
+Epoch(162/300) Learning Rate 0.04704048535158885:
+Training loss:1.419 acc_avg:93.228% acc:95.572% Precision:93.897 Recall:93.228 F1:93.494 time:52s
+Testing  loss:1.428 acc_avg:89.128% acc:92.909% Precision:90.397 Recall:89.128 F1:89.539 time:5s [best test acc: 92.909%]
+
+Epoch(163/300) Learning Rate 0.04654667140569556:
+Training loss:1.424 acc_avg:93.273% acc:95.511% Precision:93.841 Recall:93.273 F1:93.486 time:52s
+Testing  loss:1.446 acc_avg:87.359% acc:91.572% Precision:89.171 Recall:87.359 F1:87.747 time:5s [best test acc: 92.909%]
+
+Epoch(164/300) Learning Rate 0.04605351030937055:
+Training loss:1.418 acc_avg:93.609% acc:95.765% Precision:94.408 Recall:93.609 F1:93.888 time:52s
+Testing  loss:1.45 acc_avg:89.634% acc:91.288% Precision:89.051 Recall:89.634 F1:88.839 time:5s [best test acc: 92.909%]
+
+Epoch(165/300) Learning Rate 0.04556105614328547:
+Training loss:1.422 acc_avg:93.391% acc:95.613% Precision:94.272 Recall:93.391 F1:93.774 time:52s
+Testing  loss:1.45 acc_avg:87.804% acc:91.856% Precision:88.706 Recall:87.804 F1:87.901 time:5s [best test acc: 92.909%]
+
+Epoch(166/300) Learning Rate 0.04506936291058905:
+Training loss:1.42 acc_avg:93.92% acc:95.827% Precision:94.608 Recall:93.92 F1:94.185 time:52s
+Testing  loss:1.444 acc_avg:89.178% acc:92.342% Precision:88.723 Recall:89.178 F1:88.48 time:5s [best test acc: 92.909%]
+
+Epoch(167/300) Learning Rate 0.04457848453098514:
+Training loss:1.414 acc_avg:93.843% acc:95.918% Precision:94.232 Recall:93.843 F1:93.986 time:52s
+Testing  loss:1.444 acc_avg:88.792% acc:92.382% Precision:90.456 Recall:88.792 F1:89.098 time:5s [best test acc: 92.909%]
+
+Epoch(168/300) Learning Rate 0.0440884748348198:
